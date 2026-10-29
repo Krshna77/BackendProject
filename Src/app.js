@@ -50,6 +50,9 @@ app.get('/feed', async (req, res) => {
     }
 })
 
+app.delete('/user' , async (req , res)=>{
+    
+})
 
 connectDB().then(() => {
     console.log("db connection is succesful")
